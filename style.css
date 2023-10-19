@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background-image: url('bg.png');
+
+}
+.navhadder img
+{
+    width: 60px;
+}
+.navhadder
+{
+    display: flex;
+}
+.navhadder h3
+{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(49, 18, 0);
+    font-weight: 700;
+}
+.tagline
+{
+    padding-top: 8rem;
+    padding-left: 3rem;   
+}
+.tagline p
+{
+    color: rgb(49, 18, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px dashed rgb(49, 18, 0);
+    width: 36%;
+    padding: 10px;
+}
+.container
+{
+    padding-left: 3rem;
+    padding-top: 3rem;
+    font-family: fantasy;
+}
+.container h1
+{
+    font-size: 130px;
+    font-weight: 100px;
+    color: rgb(49, 18, 0);
+    text-shadow: 2px 2px #fff;
+}
+.container h3
+{
+    font-size: 80px;
+    font-weight:bolder;
+    color: rgb(49, 18, 0);
+    text-shadow: 2px 2px #fff;
+}
+.banner img
+{
+    width: 100%;
+    padding-left: 8rem;
+   
+}
+.container-fluid
+{
+    display: flex;
+}
+.subnav
+{
+    background: rgb(247, 181, 0);
+    opacity: .97;
+}
+section
+{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+.sec_1 img
+{
+    height: 104%;
+    width: 110%;
+}
+.sec_1
+{
+    padding: 50px;
+    margin: 30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+}
+.sec_2,.sec_3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: relative;
+}
+.sec_1 h3
+{
+    padding-top: 15px;
+}
+.sec_1 img
+{
+    border-radius: 5px;
+}
+.sec_1 .text
+{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    color: ccc;
+}
+section
+{
+    display: flex;
+}
+.aside
+{
+    padding-top: 2rem;
+}
+.sec_3,.sec_2
+{
+    margin: 3rem;
+    background: url('img2.jpg') center center/cover;
+    height: 170px;
+    padding-left: 18rem;
+    width: 80%;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.button
+{
+    text-align: center;
+}
+.button button
+{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(247, 181, 0);
+    color: brown;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.showcase{
+    margin-left: 1rem;
+}
+.showcase h1
+{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(49, 18, 0);
+    text-align: center;
+}
+.showcase p
+{
+    padding-left: 15rem;
+    line-height: 2rem;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prod1 h3,.prod2 h3,.prod3 h3
+{
+    text-align: center;
+    font-family: fantasy;
+    color:rgb(49, 18, 0);
+}
+.prod1 span,.prod2 span,.prod3 span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 5px;
+}
+.prod1,.prod2,.prod3
+{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.btn
+{
+    padding: 20px;
+    background-color: red;
+    font-family: fantasy;
+    border: none;
+}
+footer h1,p
+{
+    display: unset;
+}
+footer h3
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(49, 18, 0)
+}
+footer
+{
+    display:flex;
+    flex-wrap: nowrap;
+    line-height:3rem;
+    padding: 20px;
+    text-align: justify;
+}
+footer span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+
+}
+
+footer .p1
+{
+    margin: 20px;
+}
